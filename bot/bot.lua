@@ -36,7 +36,7 @@ function create_config( )
     "moderation"
   },
   sudo_users = {
-    [272743124] = 299599695
+    [299599695] = 299599695
   },
   users = {}
   }
