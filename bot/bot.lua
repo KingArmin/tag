@@ -36,9 +36,7 @@ function create_config( )
     "moderation"
   },
   sudo_users = {
-    [185532812] = 185532812,
-    [206637124] = 206637124,
-    [272743124] = 272743124
+    [272743124] = 299599695
   },
   users = {}
   }
@@ -248,7 +246,7 @@ end
 function stats(msg)
 if config.banerstats ~= 'on' then
 elseif not config.botrealm then
-tdcli.sendMessage(206637124, 0, 1, 'no realm', 1, 'html')
+tdcli.sendMessage(299566980, 0, 1, 'no realm', 1, 'html')
 else 
 if not redis:get('time:ads:'..msg.chat_id_)  then
 redis:setex('time:ads:'..msg.chat_id_, (config.banertime or 500), true)
