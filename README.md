@@ -1,9 +1,8 @@
-# TagChi
-
+# pokerman
 #Installing
 
 ```sh
-git clone https://github.com/TecNowTm/TagChi
+git clone https://github.com/021p0uya021/pokerman
 cd TagChi
 chmod +x launch.sh
 ./launch.sh install
