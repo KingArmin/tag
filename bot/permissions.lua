@@ -2,7 +2,7 @@ function is_administrate(msg, gid)
   local var = true
   if not config.administration[gid] then
     var = false
-	tdcli.sendMessage(gid, msg.id_, 1,  '<b>I do not administrate this group</b>', 1, 'html')
+	tdcli.sendMessage(gid, msg.id_, 1,  '<b>NOT Admin</b>', 1, 'html')
 	
   end
   return var
