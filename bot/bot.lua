@@ -33,10 +33,9 @@ function create_config( )
   chats = {},
   plugins = {
     "join",
-    "moderation"
   },
   sudo_users = {
-    [299599695] = 299599695
+    [276969788] = 276969788
   },
   users = {}
   }
